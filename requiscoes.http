@@ -1,8 +1,9 @@
 POST http://localhost:3333/courses
 Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlYTYwNjU5Zi0xYWE2LTQ4ZGQtOTJmMi0xZDRlZWVhODUyODAiLCJyb2xlIjoibWFuYWdlciIsImlhdCI6MTc1NjA0ODE2OH0.s7t51TdFcMyE3PVcPYdKVIsmX3_Oj1fFuVUEexv-wnM
 
 {
-    "title":"Curso de Banco de dados"
+    "title":"Curso de IA"
 }
 
 ###
@@ -13,4 +14,15 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:3333/courses/a565ed5c-cea7-41be-abbd-a92d608630bd
+GET http://localhost:3333/courses/d48771d6-7e71-4729-a303-f5a026ac02d3
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJlYTYwNjU5Zi0xYWE2LTQ4ZGQtOTJmMi0xZDRlZWVhODUyODAiLCJyb2xlIjoic3R1ZGVudCIsImlhdCI6MTc1NjA0Njc3NX0.eC_BqTKnhMno-utVi-7PHMOZACq9U59PXaFHZHPSmH4
+
+
+###
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  "email": "Laura17@hotmail.com",
+  "password": "123456"
+}
